@@ -1,1 +1,2 @@
-# Producao-De-Jogos-Eletronicos-I
+# spaceshooter
+Repositório do projeto Spaceshooter das aulas de Produção de Jogos I

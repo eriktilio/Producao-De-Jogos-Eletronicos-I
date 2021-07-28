@@ -121,16 +121,7 @@ MonoBehaviour:
   cannon: {fileID: 897377911400463659}
   lasers:
   - {fileID: 8624700655167389887, guid: ca1439641e7b1f43eb394c0363b53d61, type: 3}
-  - {fileID: 2192045911732030293, guid: b7346794aab1fd17893bcdc0cec0e256, type: 3}
-  - {fileID: 4877709750885022338, guid: 35e669041604abb01b3de0b29070c17a, type: 3}
-  - {fileID: 8917450630243748699, guid: 19808a5de1770599f846c6ee4ffcaff6, type: 3}
-  - {fileID: 5538409743964301232, guid: a37eea9ac0771de2c9c04aee61a8fe7b, type: 3}
-  - {fileID: 7114378572798664856, guid: 03d3c5c57e325ca6c8e5d733a805e486, type: 3}
-  - {fileID: 597417663044430683, guid: 9d0a63bf530d6f2ffbee3fab81041940, type: 3}
-  - {fileID: 5897336856362758746, guid: 339aef55c47d3fd2bb5b46d73ccb045e, type: 3}
-  - {fileID: 5709792136893299470, guid: dfbd130510afc7a8b86423f16851310a, type: 3}
-  - {fileID: 5735979227350743569, guid: 9b5c7d9f54f49cc7e8e2913261e2b211, type: 3}
-  currentLaser: 0
+  currentLaser: 1
 --- !u!61 &897377910959727919
 BoxCollider2D:
   m_ObjectHideFlags: 0

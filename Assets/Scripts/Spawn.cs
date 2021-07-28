@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Spawn : MonoBehaviour
 {
-    public int lives = 5;
+    public int lives = 3;
     public GameObject ship;
     // Start is called before the first frame update
     void Start()
     {
         lives++;
         SpawnShip();
+        GameController.Instance.UpdateLives(lives);
     }
 
     // Update is called once per frame
@@ -19,10 +20,14 @@ public class Spawn : MonoBehaviour
         if (lives > 0) 
         {
             lives--;
+            GameController.Instance.UpdateLives(lives);
             StartCoroutine(SpawnRoutine());
         }
 
-        else Debug.Log("FIM DE JOGO VOCÊ PERDEU!");
+        else
+        {
+            GameController.Instance.GameOver();
+        }
     }   
 
     IEnumerator SpawnRoutine()
